@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const NavBar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-danger text-uppercase fixed-top ms-auto">
         <div className="container-fluid">
           <button
             className="navbar-toggler"
@@ -17,17 +17,14 @@ const NavBar = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
+
           <Link className="navbar-brand" to="/main">
             Ruslan Prakapets
           </Link>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-center align-items-center">
               <li className="nav-item">
-                <Link
-                  className="nav-link active"
-                  aria-current="page"
-                  to="/projects"
-                >
+                <Link className="nav-link" aria-current="page" to="/projects">
                   Projects
                 </Link>
               </li>
@@ -42,6 +39,14 @@ const NavBar = () => {
                 </Link>
               </li>
             </ul>
+            <div className="m-3">
+              <a href="https://github.com/kyoto430" className="social m-1">
+                <i className="bi bi-github"></i>
+              </a>
+              <a href="https://t.me/Kyoto430" className="social m-1">
+                <i className="bi bi-telegram"></i>
+              </a>
+            </div>
           </div>
         </div>
       </nav>
