@@ -4,16 +4,16 @@ import Photo from '../assets/01.jpg'
 const About = () => {
   return (
     <>
-      <header className="header">
+      <main className="main">
         <h1 className="header-text font-monospace mt-5">About Me</h1>
         <p>I love Design, Technology, and Story.</p>
         <div className="col-12 container text-center">
           <img src={Photo} alt="photo" className="w-50" />
         </div>
-        <div class="container">
-          <div class="row mb-5">
-            <div class="col-4">01 WHO I AM:</div>
-            <div class="col-8">
+        <div className="container">
+          <div className="row mb-5">
+            <div className="col-4">01 WHO I AM:</div>
+            <div className="col-8">
               <div className="row">Ruslan</div>
               <div className="row">
                 1992年、沖縄県生まれ。大学を卒業後、県内の制作会社でDTPオペレーターとして就職後、大手紳士服量販店を中心に十数社のコーポレートサイトの運用業務を担当しました。
@@ -25,7 +25,7 @@ const About = () => {
           <div className="row mb-5">
             <div className="col-4">02 SKILL SET:</div>
             <div className="col-8">
-              <div className="d-flex justify-content-around">
+              <div className="d-flex justify-content-around flex-wrap">
                 <a href="https://reactjs.org/" target="_blank">
                   {' '}
                   <img
@@ -105,18 +105,18 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div class="row">
-            <div className="col-4">03 PERSONAL CONTACT:</div>
+          <div className="row mb-5">
+            <div className="col-4 ">03 PERSONAL CONTACT:</div>
             <div className="col-8">
-              <div>
-                <i className="bi bi-envelope"></i> nateriver345@gmail.com{' '}
+              <div className="d-flex justify-content-center flex-wrap">
+                <i className="bi bi-envelope"></i>nateriver345@gmail.com{' '}
                 <i className="bi bi-telephone"></i> +375336613974
               </div>
             </div>
             <div></div>
           </div>
         </div>
-      </header>
+      </main>
     </>
   )
 }
