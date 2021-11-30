@@ -1,17 +1,22 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import MyButton from '../components/UI/button/myButton'
 
 const Main = () => {
   return (
     <>
       <header className="header">
         <h1 className="header-text font-monospace w-75">
-          Hi, you found me! I am a junior front-end developer from Belarus.
-          Currently studing at React to build awesome things.
+          Привет, приятно познакомиться. Я junior front-end developer из
+          Беларуси. В настоящее время изучаю React, чтобы создавать потрясающие
+          вещи.
         </h1>
-        <div className="bg-black text-light w-75 p-1">Ruslan Prakapets</div>
-        <button className="btn btn-light btn-lg mt-5 font-monospace">
-          Посмотреть проекты
-        </button>
+        <div className="bg-black text-light w-75 p-1 mb-3 text-italic">
+          <em>Руслан Прокопец</em>
+        </div>
+        <Link to="/projects">
+          <MyButton>Посмотреть проекты </MyButton>
+        </Link>
       </header>
     </>
   )

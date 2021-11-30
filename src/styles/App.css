@@ -1,5 +1,14 @@
 @import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
 /* header */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
 .header {
   width: 100%;
   height: 100vh;
@@ -7,7 +16,7 @@
   background: linear-gradient(
     0deg,
     rgba(0, 0, 0, 1) 0%,
-    rgba(255, 13, 13, 1) 50%,
+    rgb(82, 240, 240) 50%,
     rgba(0, 0, 0, 1) 100%
   );
   color: #fff;
@@ -19,13 +28,11 @@
 }
 
 .main {
-  width: 100%;
-  height: 100%;
   background: rgb(0, 0, 0);
   background: linear-gradient(
     0deg,
     rgba(0, 0, 0, 1) 0%,
-    rgba(255, 13, 13, 1) 50%,
+    rgb(241, 79, 79) 50%,
     rgba(0, 0, 0, 1) 100%
   );
   color: #fff;
@@ -38,7 +45,7 @@
 }
 
 .social {
-  font-size: 2.5em;
+  font-size: 1.5em;
   color: #fff;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
@@ -46,6 +53,11 @@
 
 .social:hover {
   color: #333;
+}
+
+.default-links {
+  text-decoration: none;
+  color: #fff;
 }
 
 .nav-link {

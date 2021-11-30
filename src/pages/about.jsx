@@ -5,25 +5,45 @@ const About = () => {
   return (
     <>
       <main className="main">
-        <h1 className="header-text font-monospace mt-5">About Me</h1>
-        <p>I love Design, Technology, and Story.</p>
-        <div className="col-12 container text-center">
-          <img src={Photo} alt="photo" className="w-50" />
+        <div className="col-12 container text-center mt-5">
+          <img src={Photo} alt="ruslan" className="w-50 mb-5" />
         </div>
         <div className="container">
           <div className="row mb-5">
-            <div className="col-4">01 WHO I AM:</div>
+            <div className="col-4">
+              <span
+                style={{
+                  fontSize: '18px',
+                  fontWeight: 'bold',
+                }}
+              >
+                01
+              </span>{' '}
+              Кто я:
+            </div>
             <div className="col-8">
-              <div className="row">Ruslan</div>
               <div className="row">
-                1992年、沖縄県生まれ。大学を卒業後、県内の制作会社でDTPオペレーターとして就職後、大手紳士服量販店を中心に十数社のコーポレートサイトの運用業務を担当しました。
-                2017年より、個人でもWebデザイナーとしての活動を開始し、写真撮影・デザイン・コーディングまでワンストップで対応しています。
+                - Привет, меня зовут Руслан Прокопец, и я Junior Front-End
+                Developer. Я родился в Беларуси, живу в городе Минске. С 2018
+                года начал обучаться верстке сайтов. Спустя некоторое время
+                продвинулся дальше и началал изучать новые технологии JavaScript
+                и React. В своих проектах стремлюсь делать понятный и доступный
+                пользовоательский интерфейс.
               </div>
             </div>
           </div>
-
           <div className="row mb-5">
-            <div className="col-4">02 SKILL SET:</div>
+            <div className="col-4">
+              <span
+                style={{
+                  fontSize: '18px',
+                  fontWeight: 'bold',
+                }}
+              >
+                02
+              </span>{' '}
+              Мои технологии:
+            </div>
             <div className="col-8">
               <div className="d-flex justify-content-around flex-wrap">
                 <a href="https://reactjs.org/" target="_blank">
@@ -106,11 +126,23 @@ const About = () => {
             </div>
           </div>
           <div className="row mb-5">
-            <div className="col-4 ">03 PERSONAL CONTACT:</div>
+            <div className="col-4 ">
+              <span
+                style={{
+                  fontSize: '18px',
+                  fontWeight: 'bold',
+                }}
+              >
+                03
+              </span>{' '}
+              Мои контакты:
+            </div>
             <div className="col-8">
               <div className="d-flex justify-content-center flex-wrap">
-                <i className="bi bi-envelope"></i>nateriver345@gmail.com{' '}
-                <i className="bi bi-telephone"></i> +375336613974
+                <div className="col">nateriver345@gmail.com</div>
+                <div className="col">
+                  <i className="bi bi-telephone"></i> +375336613974
+                </div>
               </div>
             </div>
             <div></div>

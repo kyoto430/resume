@@ -30,17 +30,17 @@ const NavBar = () => {
                   aria-current="page"
                   to="/projects"
                 >
-                  Projects
+                  Мои проекты
                 </Link>
               </li>
               <li className="nav-item m-2">
                 <Link className="nav-link p-2" to="/about">
-                  About me
+                  Обо мне
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link p-2" to="/contact">
-                  Contact
+                  Контакты
                 </Link>
               </li>
               <div className="m-3">
