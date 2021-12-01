@@ -38,8 +38,7 @@ const Projects = () => {
                     <h5>Задачи на проекте</h5>
                     <p className="bg-black p-2">
                       <i className="bi bi-arrow-right text-info"></i>
-                      Разработка компонента карточек команды, компонент progress
-                      bar
+                      Разработка компонента карточек команды
                     </p>
                   </div>
                   <div>
