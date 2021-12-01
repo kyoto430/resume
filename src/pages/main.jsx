@@ -5,18 +5,23 @@ import MyButton from '../components/UI/button/myButton'
 const Main = () => {
   return (
     <>
-      <header className="header">
-        <h1 className="header-text font-monospace w-75">
-          Привет, приятно познакомиться. Я junior front-end developer из
-          Беларуси. В настоящее время изучаю React, чтобы создавать потрясающие
+      <header className="container-box header">
+        <h1 className="header-text">
+          Привет, приятно познакомиться.
+          <br />Я junior front-end developer из Беларуси.
+          <br /> В настоящее время изучаю React, чтобы создавать потрясающие
           вещи.
         </h1>
-        <div className="bg-black text-light w-75 p-1 mb-3 text-italic">
-          <em>Руслан Прокопец</em>
-        </div>
+        <p className="bg-dark w-75 p-2 m-4 text-center text-uppercase">
+          Руслан Прокопец
+        </p>
         <Link to="/projects">
-          <MyButton>Посмотреть проекты </MyButton>
+          <MyButton>Проекты</MyButton>
         </Link>
+        <i
+          className="bi bi-hand-index-thumb mt-1"
+          style={{ fontSize: '30px' }}
+        />
       </header>
     </>
   )

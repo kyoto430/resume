@@ -1,7 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Social from '../../common/social'
 
 const NavBar = () => {
+  const isNav = true
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-black text-uppercase sticky-top">
@@ -43,14 +45,7 @@ const NavBar = () => {
                   Контакты
                 </Link>
               </li>
-              <div className="m-3">
-                <a href="https://github.com/kyoto430" className="social m-1">
-                  <i className="bi bi-github"></i>
-                </a>
-                <a href="https://t.me/Kyoto430" className="social m-1">
-                  <i className="bi bi-telegram"></i>
-                </a>
-              </div>
+              <Social nav={isNav} />
             </ul>
           </div>
         </div>

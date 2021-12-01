@@ -1,6 +1,8 @@
 import React from 'react'
+import Social from '../components/common/social'
 
 const Contact = () => {
+  const isNav = false
   return (
     <>
       <header className="header">
@@ -19,14 +21,7 @@ const Contact = () => {
                 +375336613974
               </a>
             </div>
-            <div className="m-2">
-              <a href="https://github.com/kyoto430" className="social m-1">
-                <i className="bi bi-github"></i>
-              </a>
-              <a href="https://t.me/Kyoto430" className="social m-1">
-                <i className="bi bi-telegram"></i>
-              </a>
-            </div>
+            <Social nav={isNav} />
           </div>
         </div>
       </header>
