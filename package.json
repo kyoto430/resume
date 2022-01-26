@@ -1,8 +1,8 @@
 {
-  "name": "resume",
-  "version": "0.1.0",
+  "name": "portfolio-eng",
+  "version": "0.2.0",
   "private": true,
-  "homepage": "https://kyoto430.github.io/portfolio/",
+  "homepage": "https://kyoto430.github.io/portfolio-eng/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",

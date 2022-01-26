@@ -19,20 +19,20 @@ const About = () => {
               >
                 01
               </span>{' '}
-              Кто я:
+              Who am I:
             </div>
             <div className="col-8">
               <div className="row">
                 <p>
-                  Привет, меня зовут Руслан Прокопец и я Junior Front-End
+                  Hi, my name is Ruslan Prakapets and I am a Junior Front-End
                   Developer.{' '}
                 </p>{' '}
-                <p>Я родился в Беларуси, живу в городе Минске. </p>
+                <p>I was born in Belarus, I live in Minsk.</p>
                 <p>
-                  С 2018 года начал обучаться верстке сайтов. Спустя некоторое
-                  время продвинулся дальше и начал изучать новые технологии
-                  JavaScript и React. В своих проектах стремлюсь делать понятный
-                  и доступный пользовоательский интерфейс.
+                  Since 2018, I started learning how to layout websites. After a
+                  while time I acquired new skills and started learning new
+                  technologies JavaScript and React. In my projects I strive to
+                  make clear and an accessible user interface.
                 </p>
               </div>
             </div>
@@ -47,7 +47,7 @@ const About = () => {
               >
                 02
               </span>{' '}
-              Мои технологии:
+              My technologies:
             </div>
             <div className="col-8">
               <div className="d-flex justify-content-around flex-wrap">

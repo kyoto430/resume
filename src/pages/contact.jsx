@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <>
       <header className="header">
-        <h1 className="header-text font-monospace">Связаться со мной</h1>
+        <h1 className="header-text font-monospace">Contact me</h1>
         <div className="container">
           <div className="d-flex justify-content-around flex-column m-1 align-items-center">
             <div className="m-2 ">

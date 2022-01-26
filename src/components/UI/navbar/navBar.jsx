@@ -32,17 +32,17 @@ const NavBar = () => {
                   aria-current="page"
                   to="/projects"
                 >
-                  Мои проекты
+                  My projects
                 </Link>
               </li>
               <li className="nav-item m-2">
                 <Link className="nav-link p-2" to="/about">
-                  Обо мне
+                  About Me
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link p-2" to="/contact">
-                  Контакты
+                  Contacts
                 </Link>
               </li>
               <Social nav={isNav} />

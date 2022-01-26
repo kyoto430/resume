@@ -16,33 +16,33 @@ const Projects = () => {
                 {' '}
                 <div className="d-flex justify-content-between flex-column m-1">
                   <div>
-                    <h5>Проект</h5>
+                    <h5>Project</h5>
                     <p>
                       <i className="bi bi-arrow-right text-info"></i>
-                      Хакатон
+                      Hackathon
                     </p>
                   </div>
                   <div>
-                    <h5>Задание</h5>
+                    <h5>Task</h5>
                     <p className="bg-black p-2">
                       <i className="bi bi-arrow-right text-info"></i>
-                      Разработать классный сайт на React, который будет
-                      презентовать команду. На нём креативно рассказать о своей
-                      команде в целом и о каждом участнике отдельно. Любые
-                      улучшения приветствуются, но необходимо сохранить
-                      минимальный базовый функционал, который описан в
-                      техническом задании.
+                      Develop a cool website on React that will present the
+                      team. It is creative to tell about your the team as a
+                      whole and about each participant separately. Any
+                      improvements are welcome, but must be maintained the
+                      minimum basic functionality, which is described in
+                      technical task.
                     </p>
                   </div>
                   <div>
-                    <h5>Задачи на проекте</h5>
+                    <h5>Tasks on the project</h5>
                     <p className="bg-black p-2">
                       <i className="bi bi-arrow-right text-info"></i>
-                      Разработка компонента карточек команды
+                      Development of the team cards component
                     </p>
                   </div>
                   <div>
-                    <h5>Результат</h5>
+                    <h5>Result</h5>
                     <i className="bi bi-arrow-right text-info"> </i>
                     <a
                       target="_blank"
