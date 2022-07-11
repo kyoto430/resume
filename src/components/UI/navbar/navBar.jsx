@@ -20,7 +20,7 @@ const NavBar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <Link className="navbar-brand" to="/main">
+          <Link className="navbar-brand adaptive-text" to="/main">
             Ruslan Prakapets
           </Link>
 
@@ -32,17 +32,17 @@ const NavBar = () => {
                   aria-current="page"
                   to="/projects"
                 >
-                  My projects
+                  Мои проекты
                 </Link>
               </li>
               <li className="nav-item m-2">
                 <Link className="nav-link p-2" to="/about">
-                  About Me
+                  Обо мне
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link p-2" to="/contact">
-                  Contacts
+                  Контакты
                 </Link>
               </li>
               <Social nav={isNav} />

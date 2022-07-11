@@ -18,22 +18,27 @@ const About = () => {
                 }}
               >
                 01
-              </span>{' '}
-              Who am I:
+              </span>
+              Кто я:
             </div>
             <div className="col-8">
               <div className="row">
                 <p>
-                  Hi, my name is Ruslan Prakapets and I am a Junior Front-End
-                  Developer.{' '}
-                </p>{' '}
-                <p>I was born in Belarus, I live in Minsk.</p>
-                <p>
-                  Since 2018, I started learning how to layout websites. After a
-                  while time I acquired new skills and started learning new
-                  technologies JavaScript and React. In my projects I strive to
-                  make clear and an accessible user interface.
+                  Привет, меня зовут Руслан Прокопец. Я родился в Беларуси, живу
+                  в г.Минске.
                 </p>
+                <div>
+                  <p>
+                    В 2018 году, я начал изучать верстку веб-сайтов. Со временем
+                    я приобрел новые навыки и начал изучать новые технологии
+                    JavaScript и React.
+                  </p>
+                  <p>01.03.2022 окончил курс Junior Frontend Developer.</p>
+                  <p>
+                    В своих проектах я стремлюсь сделать понятный и доступный
+                    пользовательский интерфейс.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -47,7 +52,7 @@ const About = () => {
               >
                 02
               </span>{' '}
-              My technologies:
+              Мои технологии:
             </div>
             <div className="col-8">
               <div className="d-flex justify-content-around flex-wrap">
@@ -108,15 +113,58 @@ const About = () => {
                     height="50"
                   />{' '}
                 </a>
-                <a href="https://firebase.google.com/" rel="nofollow">
+                <a href="https://github.com/" rel="nofollow">
                   {' '}
                   <img
-                    src="https://camo.githubusercontent.com/dd4b2422ed3bfc9da88c43d18550375c66f9584327dff7ecc19315ce50b96f07/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f66697265626173652f66697265626173652d69636f6e2e737667"
-                    alt="firebase"
+                    src="https://www.svgrepo.com/show/303615/github-icon-1-logo.svg"
+                    alt="git"
                     width="50"
                     height="50"
-                    data-canonical-src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
                   />{' '}
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="row mb-5">
+            <div className="col-4 text-center">
+              <span
+                style={{
+                  fontSize: '18px',
+                  fontWeight: 'bold',
+                }}
+              >
+                03
+              </span>{' '}
+              Базовые знания:
+            </div>
+            <div className="col-8">
+              <div className="d-flex justify-content-around flex-wrap">
+                <a href="https://redux.js.org/" target="_blank">
+                  {' '}
+                  <img
+                    src="https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg"
+                    alt="redux"
+                    width="50"
+                    height="50"
+                  />{' '}
+                </a>{' '}
+                <a href="https://nodejs.org/en/" rel="nofollow">
+                  {' '}
+                  <img
+                    src="https://nodejs.org/static/images/logo.svg"
+                    alt="nodeJS"
+                    width="50"
+                    height="50"
+                  />{' '}
+                </a>
+                <a href="https://www.mongodb.com/" rel="nofollow">
+                  {' '}
+                  <img
+                    src="https://webimages.mongodb.com/_com_assets/cms/kuyjf3vea2hg34taa-horizontal_default_slate_blue.svg?auto=format%252Ccompress"
+                    alt="MongoDB"
+                    width="50"
+                    height="50"
+                  />
                 </a>
               </div>
             </div>
