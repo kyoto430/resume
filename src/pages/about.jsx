@@ -56,7 +56,7 @@ const About = () => {
             </div>
             <div className="col-8">
               <div className="d-flex justify-content-around flex-wrap">
-                <a href="https://reactjs.org/" target="_blank">
+                <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
                   {' '}
                   <img
                     src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
@@ -139,7 +139,11 @@ const About = () => {
             </div>
             <div className="col-8">
               <div className="d-flex justify-content-around flex-wrap">
-                <a href="https://redux.js.org/" target="_blank">
+                <a
+                  href="https://redux.js.org/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   {' '}
                   <img
                     src="https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg"

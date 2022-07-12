@@ -65,8 +65,23 @@ const Projects = () => {
                     </h5>
                     <i className="bi bi-arrow-right text-info"> </i>
                     <a
+                      rel="noreferrer"
                       target="_blank"
                       href="https://orlovaleksandr89.github.io/hakaton/#/hakaton"
+                      style={{
+                        color: '#fff',
+                      }}
+                    >
+                      <span>github pages</span>
+                    </a>
+                    <h5 className="mt-2">
+                      <strong>Исходный код</strong>
+                    </h5>
+                    <i className="bi bi-arrow-right text-info"> </i>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      href="https://github.com/orlovaleksandr89/hakaton"
                       style={{
                         color: '#fff',
                       }}
@@ -132,8 +147,23 @@ const Projects = () => {
                     </h5>
                     <i className="bi bi-arrow-right text-info"> </i>
                     <a
+                      rel="noreferrer"
                       target="_blank"
                       href="https://kyoto430.github.io/project-blog/"
+                      style={{
+                        color: '#fff',
+                      }}
+                    >
+                      <span>github pages</span>
+                    </a>
+                    <h5 className="mt-2">
+                      <strong>Исходный код</strong>
+                    </h5>
+                    <i className="bi bi-arrow-right text-info"> </i>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      href="https://github.com/kyoto430/project-blog"
                       style={{
                         color: '#fff',
                       }}
@@ -177,8 +207,8 @@ const Projects = () => {
                     </h5>
                     <p className="p-2 ">
                       <i className="bi bi-arrow-right text-info"></i>
-                      Сверстать адаптивный веб-сайт используя HTML, CSS, SASS,
-                      JavaScript.
+                      Сверстать адаптивный веб-сайт используя HTML,
+                      CSS(SASS),JavaScript.
                     </p>
                   </div>
                   <div>
@@ -187,7 +217,7 @@ const Projects = () => {
                     </h5>
                     <p className="p-2">
                       <i className="bi bi-arrow-right text-info"></i>
-                      Вёрстка Landing-page с меню-бургером и попапами.
+                      Вёрстка Landing-page с меню-бургером и модальными окнами.
                     </p>
                   </div>
                   <div>
@@ -196,8 +226,23 @@ const Projects = () => {
                     </h5>
                     <i className="bi bi-arrow-right text-info"> </i>
                     <a
+                      rel="noreferrer"
                       target="_blank"
                       href="https://kyoto430.github.io/Project-1/"
+                      style={{
+                        color: '#fff',
+                      }}
+                    >
+                      <span>github pages</span>
+                    </a>
+                    <h5 className="mt-2">
+                      <strong>Исходный код</strong>
+                    </h5>
+                    <i className="bi bi-arrow-right text-info"> </i>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      href="https://github.com/kyoto430/Project-1"
                       style={{
                         color: '#fff',
                       }}
