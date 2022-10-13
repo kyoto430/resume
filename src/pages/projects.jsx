@@ -17,6 +17,12 @@ import Image13 from '../assets/project_3/03-min.png'
 import Image14 from '../assets/project_3/04-min.png'
 import Image15 from '../assets/project_3/05-min.png'
 
+import Image16 from '../assets/project_4/01-min.png'
+import Image17 from '../assets/project_4/02-min.png'
+import Image18 from '../assets/project_4/03-min.png'
+import Image19 from '../assets/project_4/04-min.png'
+import Image20 from '../assets/project_4/05-min.png'
+
 const Projects = () => {
   return (
     <>
@@ -261,6 +267,86 @@ const Projects = () => {
                   <img src={Image11} alt="pc-3" className="w-100 mb-1" />
                   <img src={Image14} alt="pc" className="w-75 m-1" />
                   <img src={Image13} alt="pc-2" className="w-75 mb-1" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-12 container m-1">
+          <div className="container mb-5 mt-5">
+            <div className="row">
+              <div className="wrapper">
+                <div className="d-flex justify-content-between flex-column m-1">
+                  <div>
+                    <h5>
+                      <strong>Проект</strong>
+                    </h5>
+                    <p>
+                      <i className="bi bi-arrow-right text-info"></i>
+                      Веб-сайт
+                    </p>
+                  </div>
+                  <div>
+                    <h5>
+                      <strong>Задание</strong>
+                    </h5>
+                    <p className="p-2 ">
+                      <i className="bi bi-arrow-right text-info"></i>
+                      Сверстать адаптивный веб-сайт используя HTML, CSS,
+                      JavaScript.
+                    </p>
+                  </div>
+                  <div>
+                    <h5>
+                      <strong>Задачи на проекте</strong>
+                    </h5>
+                    <p className="p-2">
+                      <i className="bi bi-arrow-right text-info"></i>
+                      Вёрстка многостраничного веб-сайта с меню-бургером,
+                      слайдером и анимациями.
+                    </p>
+                  </div>
+                  <div>
+                    <h5>
+                      <strong>Результат</strong>
+                    </h5>
+                    <i className="bi bi-arrow-right text-info"> </i>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      href="https://kyoto430.github.io/Vintage-cars/"
+                      style={{
+                        color: '#fff',
+                      }}
+                    >
+                      <span>github pages</span>
+                    </a>
+                    <h5 className="mt-2">
+                      <strong>Исходный код</strong>
+                    </h5>
+                    <i className="bi bi-arrow-right text-info"> </i>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      href="https://github.com/kyoto430/Vintage-cars"
+                      style={{
+                        color: '#fff',
+                      }}
+                    >
+                      <span>github</span>
+                    </a>
+                  </div>
+                  <div className="m-3 text-center">
+                    <img src={Image16} alt="pc" className="w-100 mt-1" />
+                    <img src={Image17} alt="pc" className="w-100 m-1" />
+                  </div>
+                </div>
+              </div>
+              <div className="wrapper">
+                <div className="d-flex justify-content-around flex-wrap m-1">
+                  <img src={Image20} alt="pc-3" className="w-100 mb-1" />
+                  <img src={Image19} alt="pc" className="w-100 m-1" />
+                  <img src={Image18} alt="pc-2" className="w-50 mb-1" />
                 </div>
               </div>
             </div>
